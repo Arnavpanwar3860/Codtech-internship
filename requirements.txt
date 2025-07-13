@@ -1,3 +1,5 @@
-torch
-torchvision
-matplotlib
+flask
+scikit-learn
+pandas
+joblib
+numpy

@@ -1,22 +1,22 @@
-# MNIST Image Classification with PyTorch
+# End-to-End Data Science Project: Iris Classifier
 
-This project implements a convolutional neural network (CNN) for handwritten digit classification using the MNIST dataset and PyTorch.
+This project demonstrates a full machine learning workflow from data preprocessing to deployment with Flask.
 
 ## Features
-- CNN with two convolutional layers
-- Accuracy and loss visualization
-- Model saving (`.pth` file)
+- Load Iris dataset
+- Train RandomForestClassifier
+- Save model using `joblib`
+- Deploy with Flask and basic HTML frontend
 
-## Installation
+## Setup
 ```bash
 pip install -r requirements.txt
 ```
 
-## Usage
+## Run the App
 ```bash
-python main.py
+python model.py  # Train and save model
+python app.py    # Launch Flask app
 ```
 
-## Output
-- Trained model: `mnist_cnn.pth`
-- Plot: `results.png`
+Visit `http://127.0.0.1:5000/` to use the web interface.
