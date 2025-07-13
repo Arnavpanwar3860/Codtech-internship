@@ -1,22 +1,20 @@
-# End-to-End Data Science Project: Iris Classifier
+# 📈 Optimization Model: Factory Production Planning
 
-This project demonstrates a full machine learning workflow from data preprocessing to deployment with Flask.
+This project solves a business problem using Linear Programming and the PuLP library in Python.
 
-## Features
-- Load Iris dataset
-- Train RandomForestClassifier
-- Save model using `joblib`
-- Deploy with Flask and basic HTML frontend
+## Problem
+Maximize profit from producing two products under labor and material constraints.
 
-## Setup
+## Solution
+- Formulated as a linear program
+- Solved using PuLP
+- Outputs include optimal production plan and profit
+
+## How to Use
 ```bash
-pip install -r requirements.txt
+pip install pulp
+jupyter notebook optimization_model.ipynb
 ```
 
-## Run the App
-```bash
-python model.py  # Train and save model
-python app.py    # Launch Flask app
-```
-
-Visit `http://127.0.0.1:5000/` to use the web interface.
+## Deliverable
+A Jupyter notebook demonstrating problem setup, solution, and business insights.
