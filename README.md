@@ -1,33 +1,22 @@
-# ETL Pipeline with Pandas and Scikit-learn
+# MNIST Image Classification with PyTorch
 
-## Overview
-This repository contains a Python script that performs automated ETL (Extract, Transform, Load) for tabular data using `pandas` and `scikit-learn`.
+This project implements a convolutional neural network (CNN) for handwritten digit classification using the MNIST dataset and PyTorch.
 
 ## Features
-- Extracts data from CSV
-- Cleans missing values
-- Encodes categorical features
-- Scales numerical features
-- Saves cleaned dataset to new CSV
+- CNN with two convolutional layers
+- Accuracy and loss visualization
+- Model saving (`.pth` file)
 
-## File Structure
-```
-etl_project/
-├── data/
-│   └── raw_data.csv
-├── etl_pipeline.py
-├── requirements.txt
-└── README.md
-```
-
-## Setup
-
+## Installation
 ```bash
 pip install -r requirements.txt
 ```
 
-## Run the Pipeline
-
+## Usage
 ```bash
-python etl_pipeline.py
+python main.py
 ```
+
+## Output
+- Trained model: `mnist_cnn.pth`
+- Plot: `results.png`
